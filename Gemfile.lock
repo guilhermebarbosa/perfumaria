@@ -154,6 +154,7 @@ DEPENDENCIES
   ckeditor (= 3.7.0.rc3)
   coffee-rails (~> 3.2.0)
   devise
+  execjs
   fastercsv
   jquery-rails
   json
