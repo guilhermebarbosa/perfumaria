@@ -1,0 +1,7 @@
+<div class="empresa">
+  <div class="dados">
+    <% if !@company.blank? %>
+      <%= @company.description.html_safe %>
+    <% end %>
+  </div>
+</div>

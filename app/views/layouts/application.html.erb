@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perfumaria</title>
+  <%= stylesheet_link_tag "application"  %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div class="geral">
+    <div class="topo">
+      <div class="logo">
+        <%= image_tag("logo.png") %>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "Quem Somos", companies_path %></li>
+          <li><%= link_to "Serviços", services_path %></li>
+          <li><%= link_to "Galeria de Fotos", galleries_path %></li>
+          <li><%= link_to "Localização", locations_path %></li>
+          <li class="bordernone"><%= link_to "Fale Conosco", new_contact_path %></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="horario_funcionamento">
+      <div>
+        <% if !@operation.blank? %>
+          <%= @operation.operation.html_safe %>
+        <% end %>
+      </div>
+    </div>
+    
+    <div class="vitrine">
+      <ul>
+        <li>
+          <%= image_tag("perfumaria.png", :width => "625", :height => "219") %>
+        </li>
+        <li>
+          <%= image_tag("perfumaria2.png", :width => "625", :height => "219") %>
+        </li>
+        <li>
+          <%= image_tag("perfumaria.png", :width => "625", :height => "219") %>
+        </li>
+        <li>
+          <%= image_tag("perfumaria2.png", :width => "625", :height => "219") %>
+        </li>
+      </ul>
+      <div class="nav">
+        <button class="1">1</button>
+        <button class="2">2</button>
+        <button class="3">3</button>
+        <button class="4">4</button>
+      </div>
+    </div>
+    <%= yield %>
+    <div class="rodape">
+      Todos os direitos reservados
+    </div>
+  </div>
+</body>
+</html>

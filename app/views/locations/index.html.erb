@@ -1,0 +1,15 @@
+<div class="localizacao_esquerda">
+  <div class="dados">
+    <div>
+      <% if !@location.blank? %>
+        <%= @location.description.html_safe %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="localizacao_direita">
+  <% if !@location.blank? %>
+    <%= image_tag(@location.image.url) %>
+    <% end %>
+</div>

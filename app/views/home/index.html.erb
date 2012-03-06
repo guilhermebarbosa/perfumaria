@@ -1,0 +1,16 @@
+<div class="menu_lateral">
+  <div class="sobre_nos">
+    <div>
+      <% if !@company.blank? %>
+        <%= @company.description_home.html_safe %>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="foto_empresa">
+  <p class="imagem">
+    <% if !@home.blank? %>
+      <%= image_tag(@home.image.url(:large)) %>
+    <% end %>
+    </p>
+</div>

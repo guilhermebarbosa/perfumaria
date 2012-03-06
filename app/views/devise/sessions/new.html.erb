@@ -1,0 +1,32 @@
+<div class="login">
+  <div class="login_box">
+    <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+      <h3>Login</h3>
+      <p>
+        <%= f.label :email %>
+        <%= f.email_field :email %>
+      </p>
+    
+      <p>
+        <%= f.label :password %>
+        <%= f.password_field :password %>
+      </p>
+
+      <p>
+        <% if devise_mapping.rememberable? -%>
+          <%= f.label :remember_me %>
+          <%= f.check_box :remember_me %>
+        <% end -%>
+      </p>
+    
+      <p class="button">
+        <%= f.submit "Logar" %>
+      </p>
+      
+      <% if false %>
+      <%= render "links" %>
+      <% end %>
+    
+    <% end %>
+  </div>
+</div>
