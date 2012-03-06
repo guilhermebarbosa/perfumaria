@@ -25,17 +25,13 @@ body div.geral div.topo{
 	height: 185px;
 	margin-bottom: 15px;
 	background-color: white;
+	margin-top:20px;
 }
 body div.geral div.topo div.logo{
 	width: 900px;
-	height: 142px;
+	height: 134px;
 	background-color: white;
 }
-body div.geral div.topo div.logo img{
-	margin-top:20px;
-	margin-left: 10px;
-}
-
 
 body div.geral div.topo div.menu{
 	width: 900px;
@@ -46,27 +42,34 @@ body div.geral div.topo div.menu ul{
 	list-style: none;
 	width: 900px;
 	height: 43px;
+	margin-left: 15px;
 }
 body div.geral div.topo div.menu ul li{
 	list-style: none;
 	padding: 0 13px 0 13px;
-	margin-top: 20px;
+	margin-top: 14px;
 	height: 15px;
 	float: left;
 	color: black;
 	border-right: solid 2px black;
 	font-size: 18px;
 	font-weight: normal;
+	line-height: 12px;
 }
 body div.geral div.topo div.menu ul li a{
 	text-decoration:none;
 	color: black;
 	text-transform: upper;
 }
+body div.geral div.topo div.menu ul li a:hover{
+	text-decoration:none;
+	color: black;
+	background-color: #ff99ff;
+}
 body div.geral div.topo div.menu ul li.bordernone{
 	list-style: none;
 	padding: 0 13px 0 13px;
-	margin-top: 20px;
+	margin-top: 14px;
 	height: 15px;
 	float: left;
 	border: none;
@@ -165,7 +168,7 @@ body div.geral div.foto_empresa{
 	margin-left: 15px;
 	float: left;
 	display: inline;
-	background-color: #ffffff;
+	background-color: #c9a4d0;
 	border: 1px solid #cccccc;
 }
 body div.geral div.foto_empresa p.imagem{
@@ -442,7 +445,7 @@ body div.geral div.contato_esquerda div.dados p span{
 body div.geral div.contato_direita{
 	width: 623px;
 	height: 332px;
-	background-color: white;
+	background-color: #c9a4d0;
 	border: 1px solid #cccccc;
 	float: left;
 	display: block;
@@ -662,7 +665,7 @@ body div.geral div.rodape{
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-right: 5px;
-	background-color: white;
+	background-color: #c9a4d0;
 	border: 1px solid #cccccc;
 	font-size: 14px;
 	float:left;
