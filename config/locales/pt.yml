@@ -249,6 +249,9 @@ pt:
         description: "Descrição"
         created_at: "Criado em"
         updated_at: "Atualizado em"
+      user:
+        password: "Senha"
+        remember_me: "Continuar logado?"
       home:
         image: "Imagem"
         description_home: "Descrição"
