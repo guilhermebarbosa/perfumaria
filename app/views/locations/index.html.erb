@@ -2,7 +2,7 @@
   <div class="dados">
     <div>
       <% if !@location.blank? %>
-        <%= @location.description.html_safe %>
+        <%= @location.description_left.html_safe %>
       <% end %>
     </div>
   </div>
@@ -10,6 +10,6 @@
 
 <div class="localizacao_direita">
   <% if !@location.blank? %>
-    <%= image_tag(@location.image.url) %>
+    <%= @location.description_right.html_safe %>
     <% end %>
 </div>

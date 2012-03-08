@@ -1,5 +1,7 @@
 Perfumaria::Application.routes.draw do
   
+  resources :locations
+
   mount Ckeditor::Engine => '/ckeditor'
 
   match "/ckeditor/pictures"
@@ -9,8 +11,6 @@ Perfumaria::Application.routes.draw do
   devise_for :users
 
   resources :companies
-
-  resources :locations
 
   resources :galleries
 

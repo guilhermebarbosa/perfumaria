@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120303142111) do
+ActiveRecord::Schema.define(:version => 20120308181219) do
 
   create_table "ckeditor_assets", :force => true do |t|
     t.string   "data_file_name",                  :null => false
@@ -60,13 +60,10 @@ ActiveRecord::Schema.define(:version => 20120303142111) do
   end
 
   create_table "locations", :force => true do |t|
-    t.text     "description"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
-    t.string   "image_file_name"
-    t.string   "image_content_type"
-    t.integer  "image_file_size"
-    t.datetime "image_updated_at"
+    t.text     "description_left"
+    t.text     "description_right"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   create_table "rails_admin_histories", :force => true do |t|

@@ -32,7 +32,7 @@ RailsAdmin.config do |config|
   
   config.model Gallery do
     label 'Galeria'
-    label_plural 'Galerias'
+    label_plural 'Galeria'
     list do
       field :id
       field :created_at
@@ -47,7 +47,7 @@ RailsAdmin.config do |config|
   
   config.model Service do
     label 'Serviço'
-    label_plural 'Serviços'
+    label_plural 'Serviço'
     list do
       field :id
       field :created_at
@@ -62,15 +62,17 @@ RailsAdmin.config do |config|
   
   config.model Location do
     label 'Localização'
-    label_plural 'Localizações'
+    label_plural 'Localização'
     list do
       field :id
       field :created_at
       field :updated_at
     end
     edit do
-      field :image
-      field :description do
+      field :description_left do
+        ckeditor true
+      end
+      field :description_right do
         ckeditor true
       end
     end
