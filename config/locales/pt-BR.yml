@@ -59,7 +59,7 @@ pt-BR:
         menu: "Criar novo"
         breadcrumb: "Novo"
         link: "Criar um novo %{model_label}"
-        done: "criado"
+        done: "criado(a)"
       edit:
         title: "Editar %{model_label} '%{object_label}'"
         menu: "Editar"
