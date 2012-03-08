@@ -259,7 +259,7 @@ pt-BR:
         updated_at: "Atualizado em"
   devise:
     sessions:
-      signed_in: 'Login efetuado com sucesso!.'
+      signed_in: 'Login efetuado com sucesso!'
   ckeditor:
     page_title: "Gerenciador de arquivos do CKEditor"
     confirm_delete: "Apagar arquivo?"
