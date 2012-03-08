@@ -2,7 +2,7 @@ class LocationsController < ApplicationController
   # GET /locations
   # GET /locations.json
   def index
-    @locations = Location.all
+    @location = Location.first
 
     respond_to do |format|
       format.html # index.html.erb

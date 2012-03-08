@@ -95,7 +95,7 @@ pt-BR:
     form:
       cancel: "Cancelar"
       basic_info: "Informação Básica"
-      required: "Obrigatórios"
+      required: "Obrigatório"
       optional: "Opcional"
       one_char: "caracter"
       char_length_up_to: "comprimento até"
@@ -223,6 +223,43 @@ pt-BR:
       sentence_connector: "e"
       skip_last_comma: true          
   activerecord:
+    errors:
+      models:
+        location:
+          attributes:
+            description_left:
+              blank: "precisa ser preenchida."
+            description_right:
+              blank: "precisa ser preenchida."
+        gallery:
+          attributes:
+            description:
+              blank: "precisa ser preenchida."
+        company:
+          attributes:
+            description:
+              blank: "precisa ser preenchida."
+            description_home:
+              blank: "precisa ser preenchida."
+              company:
+        home:  
+          attributes:
+            operation:
+              blank: "precisa ser preenchido."
+            image:
+              blank: "precisa ser inserida."
+        contact:  
+          attributes:
+            description:
+              blank: "precisa ser preenchida."
+            telephone:
+              blank: "precisa ser preenchido."
+            name:
+              blank: "precisa ser preenchido."
+            email:
+              blank: "precisa ser preenchido."
+            subject:
+              blank: "precisa ser preenchido."
     attributes:
       company:
         description: "Descrição"
@@ -254,7 +291,7 @@ pt-BR:
         remember_me: "Continuar logado?"
       home:
         image: "Imagem"
-        description_home: "Descrição"
+        operation: "Horario de funcionamento"
         created_at: "Criado em"
         updated_at: "Atualizado em"
   devise:

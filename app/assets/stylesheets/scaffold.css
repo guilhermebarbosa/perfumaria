@@ -519,9 +519,15 @@ body div.geral div.localizacao_direita{
 	display: block;
 	margin: 27px 0 0 0;
 }
-body div.geral div.localizacao_direita img{
-	width: 623px;
-	height: 394px;
+body div.geral div.localizacao_direita div.dados{
+	width: 590px;
+	height: 358px;
+	float: left;
+	margin-left: 25px;
+}
+body div.geral div.localizacao_direita div.dados div{
+	width: 590px;
+	float: left;
 }
 
 

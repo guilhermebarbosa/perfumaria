@@ -3,7 +3,7 @@ class Home < ActiveRecord::Base
     :large => "399x300#"
   }
   
-  validates :operation, :presence => true
+  validates :image, :operation, :presence => true
     
   before_post_process :transliterate_file_name
 

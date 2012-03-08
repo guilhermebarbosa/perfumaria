@@ -9,7 +9,11 @@
 </div>
 
 <div class="localizacao_direita">
-  <% if !@location.blank? %>
-    <%= @location.description_right.html_safe %>
-    <% end %>
+  <div class="dados">
+    <div>
+      <% if !@location.blank? %>
+        <%= @location.description_right.html_safe %>
+      <% end %>
+    </div>
+  </div>
 </div>
