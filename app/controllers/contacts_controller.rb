@@ -3,9 +3,9 @@ class ContactsController < ApplicationController
   # GET /contacts/new.json
   def new
     @contact = Contact.new
-
+	
     respond_to do |format|
-      format.html # new.html.erb
+      format.html
       format.json { render :json => @contact }
     end
   end
