@@ -525,66 +525,90 @@ body div.geral div.localizacao_direita img{
 }
 
 
-body div.geral div.empresa{
+body div.geral div.empresa_topo{
 	width: 900px;
-	height: 539px;
+	height: 36px;
 	margin-top: 15px;
 	float: left;
-	background-image: url("quem_somos.gif");
+	background-image: url("quem_somos_topo.gif");
 }
-body div.geral div.empresa div.dados{
+body div.geral div.empresa_meio{
+	width: 900px;
+	height: auto;
+	float: left;
+	background: url("quem_somos_meio.gif") repeat-y
+}
+body div.geral div.empresa_meio div.dados{
 	width: 850px;
-	height: 475px;
+	height: auto;
 	float: left;
 	font-family: Chaparral Pro;
 	font-size: 14px;
-	margin: 50px 0 0 30px;
+	margin: 0 0 0 30px;
 }
-body div.geral div.empresa div.dados p img{
-	margin: 0 15px 15px 0;
-	float: left;
-}
-
-
-body div.geral div.galeria{
+body div.geral div.empresa_bottom{
 	width: 900px;
-	height: 539px;
+	height: 1px;
+	float: left;
+	background: url("quem_somos_bottom.gif")
+}
+
+
+body div.geral div.galeria_topo{
+	width: 900px;
+	height: 35px;
 	margin-top: 15px;
 	float: left;
-	background-image: url("galeria.gif");
+	background-image: url("galeria_topo.gif");
 }
-body div.geral div.galeria div.dados{
+body div.geral div.galeria_meio{
+	width: 900px;
+	height: auto;
+	float: left;
+	background: url("galeria_meio.gif") repeat-y;
+}
+body div.geral div.galeria_meio div.dados{
 	width: 850px;
-	height: 475px;
+	height: auto;
 	float: left;
 	font-family: Chaparral Pro;
 	font-size: 14px;
-	margin: 50px 0 0 30px;
+	margin: 0 0 0 30px;
 }
-body div.geral div.galeria div.dados p img{
-	margin: 0 15px 15px 0;
-	float: left;
-}
-
-
-body div.geral div.servico{
+body div.geral div.galeria_bottom{
 	width: 900px;
-	height: 539px;
+	height: 1px;
+	float: left;
+	background: url("galeria_bottom.gif") repeat-y;
+}
+
+
+body div.geral div.servico_topo{
+	width: 900px;
+	height: 36px;
 	margin-top: 15px;
 	float: left;
-	background-image: url("servicos.gif");
+	background-image: url("servicos_topo.gif");
 }
-body div.geral div.servico div.dados{
+body div.geral div.servico_meio{
+	width: 900px;
+	height: auto;
+	float: left;
+	background: url("servicos_meio.gif") repeat-y;
+}
+body div.geral div.servico_meio div.dados{
 	width: 850px;
-	height: 475px;
+	height: auto;
 	float: left;
 	font-family: Chaparral Pro;
 	font-size: 14px;
-	margin: 50px 0 0 30px;
+	margin: 0 0 0 30px;
 }
-body div.geral div.servico div.dados p img{
-	margin: 0 15px 15px 0;
+body div.geral div.servico_bottom{
+	width: 900px;
+	height: 1px;
 	float: left;
+	background-image: url("servicos_bottom.gif");
 }
 
 
